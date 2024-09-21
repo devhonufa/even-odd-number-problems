@@ -2,7 +2,7 @@
 
 #### problem- 1: Check if a number is even or odd
 
-<code>
+```
   function checkEvenOdd(num){
   if (num % 2 === 0) {
     console.log(num + " This is even");
@@ -11,13 +11,55 @@
   }
 }
 checkEvenOdd(7);
-
-</code>
+```
 ##### output: 7 is odd;
 
-#### Problem- 2: Count the number of even and odd numbers in an array
+#### Problem- 2: Print all  Even numbers in an array
 
-<code>
+
+```
+let Num = [1, 2, 3, 4, 5, 6, 7]
+function printEvenNum(array) {
+  array.forEach(num =>{
+    if(num % 2 === 0){
+      console.log(num + " " + "even Numbers");
+    }
+  })
+}
+printEvenNum(Num1);
+```
+##### Output:
+##### 2 Even Numbers
+##### 4 Even Numbers
+##### 6 Even Numbers
+
+#### Problem- 3: Print all odd numbers in an array
+
+
+```
+let Num = [1, 2, 3, 4, 5, 6, 7]
+function printOddNum(array) {
+  array.forEach(num =>{
+    if(num % 2 !== 0){
+      console.log(num + " " + "odd Number")
+    }
+  });
+}
+printOddNum(Num);
+
+```
+
+##### Output:
+##### 1 odd Number
+##### 3 odd Number
+##### 5 odd Number
+##### 7 odd Number
+
+
+
+#### Problem- 4: Count the number of even and odd numbers in an array
+
+```
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function countEvenOdd(array) {
@@ -34,14 +76,15 @@ function countEvenOdd(array) {
   console.log("odd Numbers" +  " " + oddCount);
 }
 countEvenOdd(numbers);
-</code>
+```
 
 #####Output:
 ##### even Numbers 5
 ##### odd Numbers 5
 
-#### Problem- 3: Separate even and odd numbers into two different arrays
-<code>
+#### Problem- 5: Separate even and odd numbers into two different arrays
+
+```
 let evenOddNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function sepEvenOdd(array) {
@@ -58,14 +101,15 @@ function sepEvenOdd(array) {
   console.log("those numbers are odd Numbers" +  " " + oddNumnbers);
 }
 sepEvenOdd(evenOddNum);
-</code>
+```
 
 ##### Output:
 ##### Those numbers are Even Numbers 2,4,6,8,10
 ##### Those numbers are odd 1,3,5,7,9
 
-#### Problem- 4: Sum of even and odd numbers separately
-<code>
+#### Problem- 5: Sum of even and odd numbers separately
+
+```
 let Numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function sumSepEvenOddNum(array) {
   let sumEvenNum = 0;
@@ -81,49 +125,12 @@ function sumSepEvenOddNum(array) {
   console.log(sumOddNum + "-odd Number sum");
 }
 sumSepEvenOddNum(Numbers);
-</code>
+```
+
 ##### Output:
 ##### 30 -Even Number sum
 ##### 25 -odd Number sum
 
-#### Problem- 2: Print all odd numbers in an array
-
-<code>
-let Num = [1, 2, 3, 4, 5, 6, 7]
-function printOddNum(array) {
-  array.forEach(num =>{
-    if(num % 2 !== 0){
-      console.log(num + " " + "odd Number")
-    }
-  });
-}
-printOddNum(Num);
-</code>
-
-##### Output:
-##### 1 odd Number
-##### 3 odd Number
-##### 5 odd Number
-##### 7 odd Number
-
-#### Problem- 2: Print all odd numbers in an array
-
-<code>
-let Num = [1, 2, 3, 4, 5, 6, 7]
-function printEvenNum(array) {
-  array.forEach(num =>{
-    if(num % 2 === 0){
-      console.log(num + " " + "even Numbers");
-    }
-  })
-}
-printEvenNum(Num1);
-</code>
-
-##### Output:
-##### 2 even Numbers
-##### 4 even Numbers
-##### 6 even Numbers
 
 # Even-odd number problems solving - 3 problems using filetr() Method.
 
