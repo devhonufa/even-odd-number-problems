@@ -12,7 +12,7 @@
 }
 checkEvenOdd(7);
 ```
-##### output: 7 is odd;
+##### output : 7 is odd;
 
 #### Problem- 2: Print all  Even numbers in an array
 
@@ -29,9 +29,9 @@ function printEvenNum(array) {
 printEvenNum(Num1);
 ```
 ##### Output:
-##### 2 Even Numbers
-##### 4 Even Numbers
-##### 6 Even Numbers
+- 2 Even Numbers
+- 4 Even Numbers
+- 6 Even Numbers
 
 #### Problem- 3: Print all odd numbers in an array
 
@@ -49,11 +49,11 @@ printOddNum(Num);
 
 ```
 
-##### Output:
-##### 1 odd Number
-##### 3 odd Number
-##### 5 odd Number
-##### 7 odd Number
+##### Output :
+- 1 odd Number
+- 3 odd Number
+- 5 odd Number
+- 7 odd Number
 
 
 
@@ -78,9 +78,9 @@ function countEvenOdd(array) {
 countEvenOdd(numbers);
 ```
 
-#####Output:
-##### even Numbers 5
-##### odd Numbers 5
+##### Output :
+- even Numbers 5
+- odd Numbers 5
 
 #### Problem- 5: Separate even and odd numbers into two different arrays
 
@@ -103,9 +103,9 @@ function sepEvenOdd(array) {
 sepEvenOdd(evenOddNum);
 ```
 
-##### Output:
-##### Those numbers are Even Numbers 2,4,6,8,10
-##### Those numbers are odd 1,3,5,7,9
+##### Output :
+- Those numbers are Even Numbers 2,4,6,8,10
+- Those numbers are odd 1,3,5,7,9
 
 #### Problem- 5: Sum of even and odd numbers separately
 
@@ -127,9 +127,9 @@ function sumSepEvenOddNum(array) {
 sumSepEvenOddNum(Numbers);
 ```
 
-##### Output:
-##### 30 -Even Number sum
-##### 25 -odd Number sum
+##### Output :
+- 30 -Even Number sum
+- 25 -odd Number sum
 
 
 # Even-odd number problems solving - 3 problems using filetr() Method.
