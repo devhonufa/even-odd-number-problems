@@ -1,8 +1,9 @@
 # Even-odd-number-problems
 
-## Check if a number is even or odd
+#### Check if a number is even or odd
 
-function checkEvenOdd(num){
+<code>
+  function checkEvenOdd(num){
   if (num % 2 === 0) {
     console.log(num + " This is even");
   }else{
@@ -11,4 +12,5 @@ function checkEvenOdd(num){
 }
 checkEvenOdd(7);
 
+</code>
 
