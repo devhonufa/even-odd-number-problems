@@ -26,7 +26,7 @@ function printEvenNum(array) {
     }
   })
 }
-printEvenNum(Num1);
+printEvenNum(Num);
 ```
 ##### Output:
 - 2 Even Numbers
